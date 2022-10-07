@@ -11,18 +11,17 @@
 </head>
 <body>
     
-    <div class="row">
+  <div class="row">
 
-        <div class="col col-md-12">
+    <div class="col col-md-12">
 
-        <div class="table-responsive  ">
-      
-      
-
+    <div class="table-responsive  ">
 
       <table class="table table-primary">
         <thead>
           <tr id="tabla_manu">
+
+          <!-- OFERTA DE VENTA -->
             <th scope="col" class="table-warning"><div class="sizefecha">COT-Fecha</div></th>
             <th scope="col" class="table-warning"><div class="sizehora">Hora </div></th>
             <th scope="col"class="table-warning" ><div class="sizenumsap">COT-Nro</div></th>
@@ -33,59 +32,41 @@
             <th scope="col" class="table-light" ><div class="sizefecha">PRE Fecha</div></th>
             <th scope="col" class="table-light" ><div class="sizehora">Hora</div></th>
 
-           <!-- AUTORIZACION -->
+          <!-- AUTORIZACION -->
             <th scope="col" class="table-primary" ><div class="sizename">AUT-Autoriza</div></th>
             <th scope="col" class="table-primary"><div class="sizefecha">AUT-Fecha</div></th>
             <th scope="col" class="table-primary"><div class="sizehora">Hora</div></th>
-           <!-- ORDEN DE VENTA -->
+          <!-- ORDEN DE VENTA -->
             <th scope="col" class="table-danger" ><div class="sizefecha">OV-Fecha</div></th>
             <th scope="col" class="table-danger"><div class="sizehora">Hora</div></th>
             <th scope="col" class="table-danger" ><div class="sizenumsap">OV-Nro</div></th>
             <th scope="col" class="table-danger"><div class="sizename">OV-Almacén</div></th>
             
-            <!-- GUIA -->
+          <!-- GUIA -->
             <th scope="col" class="table-success"><div class="sizefecha">GUÍA-Fecha</div></th>
             <th scope="col" class="table-success"><div class="sizehora">Hora</div></th>
             <th scope="col" class="table-success"><div class="sizenumsap">GUÍA-Nro</div></th>
             <th scope="col" class="table-success"><div class="sizename">GUÍA-Creador</div></th>
 
-
-
-
-
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
-            <th scope="col"><div class="size">AUT-Hora</div></th>
+          <!-- FACTURACION -->
+            <th scope="col" class="table-secondary"><div class="sizefecha">FACT-Fecha</div></th>
+            <th scope="col" class="table-secondary"><div class="sizehora">Hora</div></th>
+            <th scope="col" class="table-secondary"><div class="sizenumsap">FACT-Nro</div></th>
+            <th scope="col" class="table-secondary"><div class="sizefac">FACT-Creador</div></th>
             
-
-
-
-        
-            <th scope="col"></th>
-            <th scope="col"></th>
-            <th scope="col">FACT-Fecha</th>
-            <th scope="col">FACT-Hora</th>
-            <th scope="col">FACT-Nro</th>
-            <th scope="col">FACT-Creador</th>
-        
 
 
           </tr>
         </thead>
+    
+
         <tbody>
+
+          <!-- ROW1-->
           <tr>
             <!-- cotizacion -->
-
-
-
-            <th scope="row" class="table-warning"><div class="sizefecha">27/09/2022</div></th>
+            
+            <th class="table-warning"><div class="sizefecha">27/09/2022</div></th>
             <td class="table-warning"><div class="sizehora">9:36</div></td>
             <td class="table-warning"><div class="sizenumsap">222613836</div> </td>
             <td class="table-warning">Walter Rojas PDV</td>
@@ -94,42 +75,118 @@
             <td class="table-light">5/10/2022	</td>
             <td class="table-light">9:42	</td>
 
-            <!-- PRE -->
+            <!-- AUTORIZACION -->
             <td class="table-primary">Martha Pariona</td>
-            <td class="table-primary">9:45	</td>
-            <td class="table-primary">221511389</td>
+            <td class="table-primary">5/10/2022	</td>
+            <td class="table-primary">9:50</td>
 
-            <!-- PRE -->
+            <!-- ORDEN VENTA -->
             <td class="table-danger">5/10/2022</td>
             <td class="table-danger">9:45</td>
             <td class="table-danger">221511389</td>
             <td class="table-danger">AZANGARO</td>
 
-            <!-- PRE -->
+            <!-- GUIA -->
             <td class="table-success">5/10/2022</td>
             <td class="table-success">9:45</td>
             <td class="table-success">225305962	</td>
             <td class="table-success">Jesus Velarde</td>
 
+            <!-- FACTURA -->
+            <td class="table-secondary">5/10/2022</td>
+            <td class="table-secondary">10:00</td>
+            <td class="table-secondary">220405449	</td>
+            <td class="table-secondary">Azangaro Facturación</td>
+
           </tr>
+
+          <!-- ROW2-->
+
           <tr>
-            <th>2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
+            
+              <!-- cotizacion -->
+            
+              <th scope="row" class="table-warning"><div class="sizefecha">29/09/2022</div></th>
+              <td class="table-warning"><div class="sizehora">14:45</div></td>
+              <td class="table-warning"><div class="sizenumsap">222613836</div> </td>
+              <td class="table-warning">Katherine Calixtro</td>
+  
+              <!-- PRE -->
+              <td class="table-light">29/09/2022	</td>
+              <td class="table-light">14:45	</td>
+  
+              <!-- AUTORIZACION -->
+              <td class="table-primary">Victor Quispe</td>
+              <td class="table-primary">29/09/2022	</td>
+              <td class="table-primary">15:00</td>
+  
+              <!-- ORDEN VENTA -->
+              <td class="table-danger">30/09/2022</td>
+              <td class="table-danger">9:45</td>
+              <td class="table-danger">221511389</td>
+              <td class="table-danger">AZANGARO</td>
+  
+              <!-- GUIA -->
+              <td class="table-success">30/09/2022</td>
+              <td class="table-success">9:45</td>
+              <td class="table-success">225305962	</td>
+              <td class="table-success">Jesus Velarde</td>
+  
+              <!-- FACTURA -->
+              <td class="table-secondary">30/09/2022</td>
+              <td class="table-secondary">10:00</td>
+              <td class="table-secondary">220405449	</td>
+              <td class="table-secondary">Azangaro Facturación</td>
+
           </tr>
+
+
+          <!-- ROW3-->
+
           <tr>
-            <th scope="row">3</th>
-            <td colspan="2">Larry the Bird</td>
-            <td>@twitter</td>
-          </tr>
+            
+            <!-- cotizacion -->
+          
+            <th scope="row" class="table-warning"><div class="sizefecha">29/09/2022</div></th>
+            <td class="table-warning"><div class="sizehora">14:45</div></td>
+            <td class="table-warning"><div class="sizenumsap">222613836</div> </td>
+            <td class="table-warning">Katherine Calixtro</td>
+
+            <!-- PRE -->
+            <td class="table-light">29/09/2022	</td>
+            <td class="table-light">14:45	</td>
+
+            <!-- AUTORIZACION -->
+            <td class="table-primary">Victor Quispe</td>
+            <td class="table-primary">29/09/2022	</td>
+            <td class="table-primary">15:00</td>
+
+            <!-- ORDEN VENTA -->
+            <td class="table-danger">30/09/2022</td>
+            <td class="table-danger">9:45</td>
+            <td class="table-danger">221511389</td>
+            <td class="table-danger">AZANGARO</td>
+
+            <!-- GUIA -->
+            <td class="table-success">30/09/2022</td>
+            <td class="table-success">9:45</td>
+            <td class="table-success">225305962	</td>
+            <td class="table-success">Jesus Velarde</td>
+
+            <!-- FACTURA -->
+            <td class="table-secondary">30/09/2022</td>
+            <td class="table-secondary">10:00</td>
+            <td class="table-secondary">220405449	</td>
+            <td class="table-secondary">Azangaro Facturación</td>
+
+        </tr>
         </tbody>
       </table>
 
     </div>
-</div>
+    </div>
 
-</div>
+  </div>
 
 
 
